@@ -1,9 +1,10 @@
 // This is a play ground
 
-function increment (value) {
-    value += 6
-    value *= 50
-    return value
+function problem(x) {
+  // Dealing with none interger value
+  if (typeof x != "number") return "Error";
+
+  return x * 50 + 6;
 }
 
-console.log(increment(1));
+console.log(problem(1));

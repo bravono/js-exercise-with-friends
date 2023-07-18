@@ -16,14 +16,20 @@
 // })
 // })
 
-// The question ask us to increment!
+// SOLUTION BY AHBIDEEN
+// The question ask us to multiply x by 50
+// and the add 6 to the result.
 function problem(x) {
-  return x;
+  // Dealing with none interger value
+  if (typeof x != "number") return "Error";
+
+  return x * 50 + 6;
 }
 
-console.log(problem("Ahbideen"));
-// from my understanding of the code above, we're to write a funtion that'll increment the value of a given variable by 6 and it must return a number otherwise it should return an error message.
+console.log(problem(1));
 
+// SOLUTION BY NAJM
+// from my understanding of the code above, we're to write a funtion that'll increment the value of a given variable by 6 and it must return a number otherwise it should return an error message.
 function increment(value) {
   value += 6;
   value *= 50;
